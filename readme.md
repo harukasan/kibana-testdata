@@ -30,7 +30,7 @@ Elasticsearchのbulk insert形式のレコードが出力されます。
 ```
 cd ./script
 bundle install --path vendor/bundle
-ruby ./src/generate_events.rb > events.json
+bundle exec ruby ./src/generate_events.rb > events.json
 ```
 
 実行にはMaxMind社のFree World Cities Databaseが必要です。
