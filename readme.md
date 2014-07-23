@@ -40,12 +40,12 @@ bundle exec ruby ./src/generate_events.rb > events.json
 
 ダウンロードしたファイルは解凍し、`./script`ディレクトリに配置してください。
 
-## License
+## Copyright
 
-- このサンプルデータは下記ライセンスで配布されます。
-  - TODO ライセンス表記
+- (c) 2014 MICHII Shunsuke.
+- Licensed under MIT License
 
-- MixMind社のFree World Cities DatabaseはMaxMind社が定めるライセンスに従い配布されています。詳細は下記ページをご覧ください。
+`events.json`ファイルにはMaxMind社のFree World Cities Databaseを基にしたデータが含まれています。
+MaxMind社のFree World Cities DatabaseはMaxMind社が定めるライセンスに従い配布されています。詳細は下記ページをご覧ください。
   - https://www.maxmind.com/en/worldcities
-
 
